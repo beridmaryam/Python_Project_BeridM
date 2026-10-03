@@ -8,7 +8,7 @@ try:
     T2 = float(input("Введите время по реке (T2, ч): "))
 
     if U < V:
-        S1 = V * T1  # На озере течения нет
+        S1 = V * T1
         V_prot_tech = V - U
         S2 = V_prot_tech * T2
         S = S1 + S2
